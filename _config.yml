@@ -16,9 +16,7 @@
 title: 黄恩果的个人网站
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+ 有智友爱有趣的90后潮汕人，关注教育科学研究、学习科学和信息技术教育，ACGer、科幻迷一枚，请多多关照！
 # twitter_username: 
 github_username: huangenguo
 minimal_mistakes_skin: default
@@ -68,9 +66,9 @@ author:
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/"
-    # - label: "GitHub"
-    #   icon: "fab fa-fw fa-github"
-    #   url: "https://github.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/huangenguo"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"

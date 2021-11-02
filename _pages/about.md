@@ -1,10 +1,13 @@
 ---
 permalink: /about/
 last_modified_at: 2021-11-02
+title: "关于"
 toc: true
 toc_label: "关于"
 toc_icon: "heart"
 ---
+
+
 
 # 关于本站
 
@@ -30,7 +33,7 @@ toc_icon: "heart"
 
 # 关于站长
 
-😄 有智友爱有趣的90后潮汕人，关注教育科学研究（教研）、学习科学和信息技术教育的理论与实践，ACGer、科幻迷一枚，请多多关照！
+😄 有智友爱有趣的90后潮汕人，关注教育科学研究、学习科学和信息技术教育，ACGer、科幻迷一枚，请多多关照！
 
 ## 我的 GitHub 简历
 
