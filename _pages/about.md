@@ -1,7 +1,6 @@
 ---
 permalink: /about/
 last_modified_at: 2021-11-02
-title: "关于"
 toc: true
 toc_label: "关于"
 toc_icon: "heart"
@@ -39,7 +38,8 @@ toc_icon: "heart"
 
 # 友情链接
 思考问题的熊 -> [https://kaopubear.top/](https://kaopubear.top/)
-彭宏豪的个人博客 -> https://www.penghh.fun/ 
+
+彭宏豪的个人博客 -> [https://www.penghh.fun/](https://www.penghh.fun/)
 
 # 本站更新
 
