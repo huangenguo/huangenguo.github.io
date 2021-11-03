@@ -3,11 +3,8 @@ permalink: /about/
 last_modified_at: 2021-11-02
 title: "关于"
 toc: true
-toc_label: "关于"
-toc_icon: "heart"
+toc_label: "目录"
 ---
-
-
 
 # 关于本站
 
@@ -39,13 +36,8 @@ toc_icon: "heart"
 
 [GitHub Résumé](https://resume.github.io/?huangenguo)
 
-# 友情链接
-思考问题的熊 -> [https://kaopubear.top/](https://kaopubear.top/)
-
-彭宏豪的个人博客 -> [https://www.penghh.fun/](https://www.penghh.fun/)
-
 # 本站更新
 
-使用 GitHub Pages 、Jekyll & Minimal Mistakes 完成本站基础框架搭建。2021年10月20日
+使用 GitHub Pages 、Jekyll & Minimal Mistakes 完成本站基础框架搭建。2021年10月20日 GMT+8 下午12:01
 
-使用 GitHub Pages 、Hexo 搭建过一个静态博客，因为懒，放弃维护。2017年11月07日 22:25:11
+使用 GitHub Pages 、Hexo 搭建过一个静态博客，因为懒，放弃维护。2017年11月7日 GMT+8 下午10:25
