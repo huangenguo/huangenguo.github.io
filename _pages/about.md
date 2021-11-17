@@ -22,7 +22,7 @@ toc_label: "目录"
 
 # 小站更新
 
-撰写并发布第一篇博文。2021年10月22日  
+撰写并发布第一篇博文。2021年11月17日  
 
 头像沿用英国创意经典动画 [小羊肖恩 (豆瓣)](https://movie.douban.com/subject/24397586/) 的角色坚果（Nuts），感谢阿德曼动画公司（[Aardman Animations Ltd](https://www.aardman.com/)）。2021年11月2日GMT+8下午9:57
 
