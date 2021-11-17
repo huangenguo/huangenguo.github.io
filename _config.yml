@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Mr 阿果"
   avatar : "/assets/images/bio-photo.jpg"  
-  bio    : "有智友爱有趣的90后潮汕人，关注教育科学研究、学习科学和信息技术教育，ACGer、科幻迷一枚，请多多关照！"
+  bio    : "关注教育科学研究、学习科学和信息技术教育"
   location : "Guangdong,China"
   links:
     # - label: "Website"
