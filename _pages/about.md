@@ -10,17 +10,17 @@ toc_label: "目录"
 
 😄 阿果是一名有智友爱有趣的90后潮汕人，性格胆小逗比，兴趣广泛，关注教育科学研究（教研）、学习科学和信息技术教育的理论与实践，ACGer、科幻迷一枚，请多多关照！  
 
-# 联系方式
+## 联系方式
 
 小站：[https://huangenguo.ml/](https://huangenguo.ml/)
 
 微信公众号：[吃一颗苹果](https://cdn.jsdelivr.net/gh/huangenguo/img@main/公众号二维码-扫描距离0.5米.jpg)
 
-# GitHub 简历
+## GitHub 简历
 
 [GitHub Résumé](https://resume.github.io/?huangenguo)
 
-# 小站更新
+## 小站更新
 
 撰写并发布第一篇博文。2021年11月17日  
 

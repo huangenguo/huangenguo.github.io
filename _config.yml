@@ -57,9 +57,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Mr 阿果"
+  name   : "恩果"
   avatar : "/assets/images/bio-photo.jpg"  
-  bio    : "关注教育科学研究、学习科学和信息技术教育"
+  bio    : "教育科技爱好者"
   location : "Guangdong,China"
   links:
     # - label: "Website"
