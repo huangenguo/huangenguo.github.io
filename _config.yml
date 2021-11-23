@@ -57,7 +57,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "恩果"
+  name   : "Mr 阿果"
   avatar : "/assets/images/bio-photo.jpg"  
   bio    : "教育科技爱好者"
   location : "Guangdong,China"
