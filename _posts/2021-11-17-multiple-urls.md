@@ -3,7 +3,7 @@ title: "超链接的打开、复制或收藏"
 last_modified_at: 2021-11-23
 excerpt_separator: "<!--more-->"
 categories:
-  - 技术
+  - tech
 tags:
   - 超链接
 toc: true

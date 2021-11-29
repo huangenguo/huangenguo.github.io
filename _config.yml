@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 locale: "zh-CN"
-title: 黄恩果的小站
+title: Home - 黄恩果的小站
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
  有智友爱有趣的90后潮汕人，关注教育科学研究、学习科学和信息技术教育，ACGer、科幻迷一枚，请多多关照！
@@ -95,7 +95,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
       share: false
       related: true
