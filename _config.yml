@@ -14,18 +14,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 locale: "zh-CN"
-title: Home - 黄恩果的小站
+title: 黄恩果的小站
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
  有智友爱有趣的90后潮汕人，关注教育科学研究、学习科学和信息技术教育，ACGer、科幻迷一枚，请多多关照！
 # twitter_username: 
 github_username: huangenguo
-minimal_mistakes_skin: default
-search: true
 
 # Build settings
+search: true
 markdown: kramdown
+# theme 
 remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: default
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show

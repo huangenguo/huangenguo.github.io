@@ -1,6 +1,6 @@
 ---
 title: "超链接的打开、复制或收藏"
-last_modified_at: 2021-11-23
+last_modified_at: 2021-12-06
 excerpt_separator: "<!--more-->"
 categories:
   - tech
@@ -18,7 +18,7 @@ toc_label: "目录"
 2. 我想批量**操作**一串连续的超链接
 3. 我想选择性地**操作**多个超链接 
 
-<!-- more -->
+<!--more-->
 
 那么不妨继续阅读下去🙃
 
@@ -26,20 +26,24 @@ toc_label: "目录"
 
 网页的超链接是否带有 _blank 元素影响链接的打开方式。
 
-blank 是空白的意思。
+超链接 target 属性的两个关键字
 
-也就是说带有 _blank 元素的超链接，鼠标左键点击即可在新标签页打开，否则在当前页面打开。
+_self: 当前页面加载（默认值）
+
+_blank: blank 是空白的意思，也就是说带有 _blank 元素的超链接，鼠标左键点击即可在新标签页打开。
 
 代码如下所示：
 
 ```html
 <a href="" target="_blank">超链接带有 _blank 元素</a>
-<a href="">超链接无 _blank 元素</a>
+<a href="" target="_self">超链接带有 _self 元素，当前页面加载</a>
+<a href="">超链接无 _blank 元素,当前页面加载</a>
 ```
-
 <a href="https://huangenguo.ml/" target="_blank">超链接带有 _blank 元素</a>
 
 <a href="https://huangenguo.ml/">超链接无 _blank 元素</a>
+
+> [<a> - HTML（超文本标记语言） | MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/a#attr-target)
 
 这就是我们在日常浏览不同网页时，有的链接在当前页打开，有的链接在新标签页打开背后的原理。
 
