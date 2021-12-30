@@ -26,7 +26,7 @@ toc_label: "目录"
 
 网页的超链接是否带有 _blank 元素影响链接的打开方式。
 
-超链接 target 属性的两个关键字
+超链接 target 属性的两个关键字：
 
 _self: 当前页面加载（默认值）
 
@@ -44,6 +44,7 @@ _blank: blank 是空白的意思，也就是说带有 _blank 元素的超链接�
 <a href="https://huangenguo.ml/">超链接无 _blank 元素</a>
 
 > [&#60;a&#62; 元素（或称锚元素）- HTML（超文本标记语言） | MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/a)
+>
 > [Markdown中如何显示HTML标签_张木期的博客-CSDN博客_markdown怎么写html](https://blog.csdn.net/qq_27674439/article/details/93116914)
 
 这就是我们在日常浏览不同网页时，有的链接在当前页打开，有的链接在新标签页打开背后的原理。
