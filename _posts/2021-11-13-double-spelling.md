@@ -42,7 +42,7 @@ toc_label: "目录"
 
 {% include video id="BV12g411K7rB" provider="bilibili" danmaku="1" %}
 
-[史上最全！人体工学椅选购指南 | 先看评测_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV12g411K7rB)
+[史上最全！人体工学椅选购指南 - 先看评测_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV12g411K7rB)
 
 对于手机盲打练习，可以通过设置双拼的手机输入法皮肤。感兴趣的可以自行搜索。
 

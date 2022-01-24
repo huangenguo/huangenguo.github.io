@@ -25,3 +25,5 @@ permalink: /copyright.html
 <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
 
 <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">黄恩果的小站</span> 由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://huangenguo.github.io" property="cc:attributionName" rel="cc:attributionURL">黄恩果</a> 采用 <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">知识共享 署名-非商业性使用-相同方式共享 4.0 国际 许可协议</a>进行许可。
+
+也就是说，您可以按照您的需要，对本站的著作进行重混、修改，以及依原著作建立新著作，但仅限于非商业目的之使用。唯使用者就其新创著作，必须按照上述指定的方式申明著作权，并且将产出之新创著作采用相同的授权条款释出。

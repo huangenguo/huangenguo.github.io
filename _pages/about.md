@@ -6,19 +6,17 @@ toc: true
 toc_label: "目录"
 ---
 
-👋 Hi，这里是阿果的精神角落！
-
-😄 阿果是一名有智友爱有趣的90后潮汕人（旧称：潮州人或潮人），性格胆小逗比，兴趣广泛，关注教育科学研究（教研）、学习科学和信息技术教育的理论与实践，ACGer、科幻迷一枚，请多多关照！  
+👋 Hi，我是小黄，一名有智友爱有趣的90后潮汕人，性格胆小逗比，兴趣广泛，关注教育科学研究（教研）、学习科学和信息技术教育的理论与实践，ACGer、科幻迷一枚，请多多关照！  
 
 ## 联系方式
 
-黄恩果的小站：[黄恩果的小站](https://huangenguo.ml/)
+黄恩果的小站：🔖[黄恩果的小站](https://huangenguo.ml/)
 
-微信公众号：[吃一颗苹果](https://cdn.jsdelivr.net/gh/huangenguo/img@main/公众号二维码-扫描距离0.5米.jpg)
+微信公众号：🔖[吃一颗苹果](https://cdn.jsdelivr.net/gh/huangenguo/img@main/公众号二维码-扫描距离0.5米.jpg)
 
-资源导航：[EdTech 教育技术导航](https://123.huangenguo.ml/)
+资源导航：🔖[EdTech 教育技术导航](https://123.huangenguo.ml/)
 
-💭 鼠标拖动可将🔖书签添加至浏览器收藏夹，浏览器快捷键/键盘组合键 Ctrl d
+💭 鼠标拖动可将🔖书签添加至浏览器收藏夹，浏览器快捷键或键盘组合键 Ctrl d
 
 ## GitHub 简历
 
