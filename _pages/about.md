@@ -14,8 +14,6 @@ toc_label: "目录"
 
 [深圳大学师范学院](http://norc.szu.edu.cn/front/)教育技术专业
 
-[梦想编程现实](https://dreamcodestrue.com/)授课教师
-
 苹果官方认可的[Apple Teacher](https://appleteacher.apple.com/) 
 
 ACGer、科幻迷一枚
