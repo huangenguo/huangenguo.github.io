@@ -15,9 +15,11 @@
 # in the templates via {{ site.myvariable }}.
 locale: "zh-CN"
 title: 黄恩果的小站
+subtitle: "科创教育同行者"
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
- 有智友爱有趣的90后潮汕人，关注教育科学研究、学习科学和信息技术教育，ACGer、科幻迷一枚，请多多关照！
+ 信息技术教育 | 教育科学研究 | 学习科学 | 
+ 有智友爱有趣的90后潮汕人，ACGer、科幻迷一枚，请多多关照！
 # twitter_username: 
 github_username: huangenguo
 
@@ -58,9 +60,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Mr 阿果"
+  name   : "创客恩果"
   avatar : "/assets/images/bio-photo.png"  
-  bio    : "教育科技爱好者"
+  bio    : "科创教育同行者"
   location : "Guangdong,China"
   links:
     # - label: "Website"
@@ -69,9 +71,9 @@ author:
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/"
-    # - label: "GitHub"
-    #   icon: "fab fa-fw fa-github"
-    #   url: "https://github.com/huangenguo"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/huangenguo"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
@@ -80,7 +82,7 @@ footer:
   links:
     - label: "EdTech 教育技术导航"
       icon: "fas fa-fw fa-link"
-      url: "https://123.huangenguo.ml/"
+      url: "https://123.616161.best/"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/"
@@ -99,7 +101,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: false
+      reading_time: true # 显示阅读时间
+      words_per_minute: 200 # 设置阅读速度
       comments: true
       share: true
       related: true
@@ -124,3 +127,6 @@ analytics:
   google:
     tracking_id: "UA-109251818-1"
     anonymize_ip: true # default
+
+comments:
+  provider: "custom"
