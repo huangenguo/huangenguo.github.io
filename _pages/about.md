@@ -3,7 +3,6 @@ permalink: /about/
 last_modified_at: 2025-08-11
 title: "关于"
 toc: true
-toc_label: "目录"
 ---
 
 👋 Hi，我是恩果

@@ -4,7 +4,7 @@ last_modified_at: 2021-11-23
 author_profile: true
 permalink: /copyright.html
 ---
-黄恩果的小站（huangenguo.github.io/huangenguo.ml）上所有内容（包括但不限于文字，图片等）均有版权限制，采用请注意许可。
+黄恩果的小站（[huangenguo.github.io/](https://huangenguo.github.io/)）上所有内容（包括但不限于文字，图片等）均有版权限制，采用请注意许可。
 
 小站尊重创造者和劳动者的知识产权和劳动成果，所介绍的文章、软件等版权归原创者所有。
 

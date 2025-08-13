@@ -1,13 +1,13 @@
 ---
 title: "超链接的打开、复制或收藏"
-last_modified_at: 2021-12-06
+last_modified_at: 2025-08-13
 excerpt_separator: "<!--more-->"
 categories:
-  - tech
+  - Tech
 tags:
   - 超链接
 toc: true
-toc_label: "目录"
+toc_sticky: true #将目录“粘贴”到页面顶部。
 ---
 
 当你在搜索引擎输入某个关键词后得到无数条结果，当你浏览网页时看到一串网址或者遍布网页各处的链接……
@@ -39,9 +39,9 @@ _blank: blank 是空白的意思，也就是说带有 _blank 元素的超链接�
 <a href="" target="_self">超链接带有 _self 元素，当前页面加载</a>
 <a href="">超链接无 _blank 元素,当前页面加载</a>
 ```
-<a href="https://huangenguo.ml/" target="_blank">超链接带有 _blank 元素</a>
+<a href="https://huangenguo.github.io/" target="_blank">超链接带有 _blank 元素</a>
 
-<a href="https://huangenguo.ml/">超链接无 _blank 元素</a>
+<a href="https://huangenguo.github.io/">超链接无 _blank 元素</a>
 
 > [a 元素（或称锚元素）- HTML（超文本标记语言）- MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/a)
 >
