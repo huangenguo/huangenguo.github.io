@@ -1,29 +1,31 @@
+{% unless site.atom_feed.hide %}
+  {% assign show_atom = true %}
+{% endunless %}
+{% if site.footer.links or show_atom %}
 <div class="page__footer-follow">
-    <ul class="social-icons">
-      {% if site.data.ui-text[site.locale].follow_label %}
-        <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
-      {% endif %}
-  
-      {% if site.footer.links %}
-        {% for link in site.footer.links %}
-          {% if link.label and link.url %}
-            <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
-          {% endif %}
-        {% endfor %}
-      {% endif %}
-  
-      {% unless site.atom_feed.hide %}
-        <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
-      {% endunless %}
-    </ul>
-  </div>
-    <div class="page__footer-copyright">
-        <a rel="license" style="display: inline-block;" href="https://huangenguo.github.io/copyright.html"><img alt="知识共享许可协议" style="border-width:0;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /> </a>
-        {{ site.time | date: '%Y' }} {{ site.name | default: site.author.name }}.         
-        {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow" target="_blank">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow" target="_blank">Minimal Mistakes</a>.
-        <a href="https://huangenguo.github.io/sitemap.xml">站点地图.</a>
-        <span id="busuanzi_container_site_uv">朋友到访 <span id="busuanzi_value_site_uv">Calculating...</span> 次.</span>        
-        <span id="sitetime">Loading...</span>       
-    </div>
+  <ul class="social-icons">
+    {% if site.data.ui-text[site.locale].follow_label %}
+      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+    {% endif %}
 
-  
+    {% if site.footer.links %}
+      {% for link in site.footer.links %}
+        {% if link.label and link.url %}
+          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label | escape_once | strip }}</a></li>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    {% unless site.atom_feed.hide %}
+      <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+    {% endunless %}
+  </ul>
+</div>
+{% endif %}
+
+<div class="page__footer-copyright">
+    &copy; {% assign site_time = site.time | date: '%Y' %}{% if site.footer.since and site_time != site.footer.since %}{{ site.footer.since }} - {% endif %}{{ site_time }} <a href="{{ site.copyright_url | default: site.url }}">{{ site.copyright | default: site.title | escape_once | strip }}</a>. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow" target="_blank">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow" target="_blank">Minimal Mistakes</a>.
+    <a href="https://huangenguo.github.io/sitemap.xml">站点地图.</a>
+    <span id="busuanzi_container_site_uv">朋友到访 <span id="busuanzi_value_site_uv">Calculating...</span> 次.</span>        
+    <span id="sitetime">Loading...</span>       
+</div>

@@ -3,8 +3,6 @@ title: "尝试添加 Twikoo 评论和 Lunr 搜索功能"
 last_modified_at: 2025-08-13
 # excerpt_separator: "<!--more-->"
 # comments: true
-toc: true
-toc_sticky: true #将目录“粘贴”到页面顶部。
 categories:
   - Blog
 tags:

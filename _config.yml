@@ -16,24 +16,34 @@
 locale: "zh-CN"
 title: 黄恩果的小站
 subtitle: "科创教育同行者"
-email: 
+# email: 
 description: >- # this means to ignore newlines until "baseurl:"
  信息技术教育 | 教育科学研究 | 学习科学 | 
  有智友爱有趣的90后潮汕人，ACGer、科幻迷一枚，请多多关照！
 # twitter_username: 
+# url: "https://huangenguo.github.io"
+# baseurl: ""
 github_username: huangenguo
-
+repository: "huangenguo/huangenguo.github.io"
+copyright: 版权声明
+copyright_url: https://huangenguo.github.io/blog/license
 # Build settings
-search: true
 markdown: kramdown
-# theme 
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: default
+search: true
+# search_full_content: true # 启用全文搜索
+lunr:
+  search_within_pages: true
+enable_copy_code_button: true #代码块复制按钮永久链接
+
 # Outputting
 permalink: /:categories/:title/
+timezone: Asia/Shanghai # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# Pagination with jekyll-paginate
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: Asia/Shanghai # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -65,33 +75,16 @@ author:
   bio    : "科创教育同行者"
   location : "Guangdong,China"
   links:
-    # - label: "Website"
-    #   icon: "fas fa-fw fa-link"
-    #   url: "https://"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/huangenguo"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/"
 
 footer:
   links:
     - label: "EdTech 教育技术导航"
       icon: "fas fa-fw fa-link"
       url: "https://123.616161.best/"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/"
-    # - label: "GitHub"
-    #   icon: "fab fa-fw fa-github"
-    #   url: "https://github.com/huangenguo"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/"
+  since: "2021"      
 
 defaults:
   # _posts
@@ -106,6 +99,8 @@ defaults:
       comments: true
       share: true
       related: true
+      toc: true # 为所有文章默认添加目录      
+      toc_sticky: true #将目录“粘贴”到页面顶部。
       show_date: true
   # _pages
   - scope:
@@ -130,6 +125,3 @@ analytics:
 
 comments:
   provider: "custom"
-
-lunr:
-  search_within_pages: true
