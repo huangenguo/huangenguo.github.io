@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 locale: "zh-CN"
 title: 教育技术自留地
-subtitle: "科创教育同行者"
+subtitle: "黄恩果的小站"
 # email: 
 description: >- # this means to ignore newlines until "baseurl:"
  信息技术教育 | 教育科学研究 | 学习科学 | 
@@ -30,9 +30,9 @@ copyright_url: https://huangenguo.github.io/blog/license
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: contrast #default 
+minimal_mistakes_skin: default # contrast 高对比度主题有点辣眼
 search: true
-search_full_content: true # 启用全文搜索
+search_full_content: true # 启用全文搜索，内容少，搜索速度还行
 lunr:
   search_within_pages: true
 enable_copy_code_button: true #代码块复制按钮永久链接

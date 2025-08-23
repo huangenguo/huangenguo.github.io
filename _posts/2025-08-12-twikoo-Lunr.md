@@ -4,7 +4,7 @@ last_modified_at: 2025-08-13
 # excerpt_separator: "<!--more-->"
 # comments: true
 categories:
-  - Blog
+  - 博客
 tags:
   - twikoo
   - Jekyll

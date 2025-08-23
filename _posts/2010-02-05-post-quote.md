@@ -3,7 +3,7 @@ title: "Post: Quote"
 comments: false
 toc: false
 categories:
-  - Blog
+  - 博客
 tags:
   - Post Formats
   - quote
