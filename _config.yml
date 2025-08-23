@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 locale: "zh-CN"
-title: 黄恩果的小站
+title: 教育技术自留地
 subtitle: "科创教育同行者"
 # email: 
 description: >- # this means to ignore newlines until "baseurl:"
@@ -30,9 +30,9 @@ copyright_url: https://huangenguo.github.io/blog/license
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: default
+minimal_mistakes_skin: contrast #default 
 search: true
-# search_full_content: true # 启用全文搜索
+search_full_content: true # 启用全文搜索
 lunr:
   search_within_pages: true
 enable_copy_code_button: true #代码块复制按钮永久链接
@@ -78,12 +78,12 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/huangenguo"
-
-footer:
-  links:
     - label: "EdTech 教育技术导航"
       icon: "fas fa-fw fa-link"
       url: "https://123.616161.best/"
+
+footer:
+  # links:
   since: "2021"      
 
 defaults:

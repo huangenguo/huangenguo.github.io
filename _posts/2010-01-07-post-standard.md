@@ -2,6 +2,7 @@
 title: "Post: Standard"
 excerpt_separator: "<!--more-->"
 comments: false
+toc: false
 categories:
   - Blog
 tags:

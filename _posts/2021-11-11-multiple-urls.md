@@ -3,9 +3,10 @@ title: "超链接的打开、复制或收藏"
 last_modified_at: 2025-08-13
 excerpt_separator: "<!--more-->"
 categories:
-  - Tech
+  - 折腾
 tags:
   - 超链接
+  - 浏览器扩展
 ---
 
 当你在搜索引擎输入某个关键词后得到无数条结果，当你浏览网页时看到一串网址或者遍布网页各处的链接……

@@ -3,7 +3,7 @@ title: "小鹤双拼音形使用指南"
 date: 2021-12-30
 excerpt_separator: "<!--more-->"
 categories:
-  - Tech
+  - 折腾
 tags:
   - 小鹤双拼音形
 ---

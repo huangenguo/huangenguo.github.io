@@ -24,7 +24,7 @@
 {% endif %}
 
 <div class="page__footer-copyright">
-    &copy; {% assign site_time = site.time | date: '%Y' %}{% if site.footer.since and site_time != site.footer.since %}{{ site.footer.since }} - {% endif %}{{ site_time }} <a href="{{ site.copyright_url | default: site.url }}">{{ site.copyright | default: site.title | escape_once | strip }}</a>. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow" target="_blank">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow" target="_blank">Minimal Mistakes</a>.
+    &copy; {% assign site_time = site.time | date: '%Y' %}{{ site.name | default: site.author.name }}.{% if site.footer.since and site_time != site.footer.since %}{{ site.footer.since }} - {% endif %}{{ site_time }} <a href="{{ site.copyright_url | default: site.url }}">{{ site.copyright | default: site.title | escape_once | strip }}</a>. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow" target="_blank">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow" target="_blank">Minimal Mistakes</a>.
     <a href="https://huangenguo.github.io/sitemap.xml">站点地图.</a>
     <span id="busuanzi_container_site_uv">朋友到访 <span id="busuanzi_value_site_uv">Calculating...</span> 次.</span>        
     <span id="sitetime">Loading...</span>       

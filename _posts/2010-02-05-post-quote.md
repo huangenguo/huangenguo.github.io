@@ -1,6 +1,7 @@
 ---
 title: "Post: Quote"
 comments: false
+toc: false
 categories:
   - Blog
 tags:

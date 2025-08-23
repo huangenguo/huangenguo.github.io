@@ -1,7 +1,7 @@
 ---
 permalink: /about/
 last_modified_at: 2025-08-19
-title: "关于我"
+title: "关于"
 toc: true
 toc_sticky: true
 ---
@@ -25,15 +25,14 @@ toc_sticky: true
 - 科幻迷
 - 终身学习者 
 
-## 联系方式
+## 维护项目
 
 - 💬 微信公众号：信息科技实验室
 - 📕 导航站：[EdTech 教育技术导航](https://123.616161.best/)
-- 😎 GitHub: [@huangenguo](https://github.com/huangenguo)
 
 ## 友情链接
 
-[友情链接 - 黄恩果的小站](https://616161.best/blog/friends/)
+[友情链接 - 黄恩果的小站](https://huangenguo.github.io/blog/friends/)
 
 ## 小站历程
 
