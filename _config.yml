@@ -38,7 +38,7 @@ lunr:
 enable_copy_code_button: true #代码块复制按钮永久链接
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /:categories/:title/ # categories 规定网址的类别，建议使用英文表示，确定之后不轻易变动
 timezone: Asia/Shanghai # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Pagination with jekyll-paginate

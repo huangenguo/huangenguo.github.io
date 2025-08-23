@@ -4,7 +4,7 @@ excerpt_separator: "<!--more-->"
 comments: false
 toc: false
 categories:
-  - 博客
+  - blog
 tags:
   - Post Formats
   - readability

@@ -4,6 +4,10 @@ last_modified_at: 2025-08-19
 title: "关于"
 toc: true
 toc_sticky: true
+tagline: "有智，友爱，有趣！"
+header:
+  overlay_image: https://images.unsplash.com/photo-1645355405065-ba34cf28532c?q=80&w=973&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com/photos/the-sun-is-setting-over-the-ocean-at-the-beach-1yjzCjwYcOo)"
 ---
 
 ## 个人简介
@@ -25,9 +29,13 @@ toc_sticky: true
 - 科幻迷
 - 终身学习者 
 
+## 联系我
+
+- 💬 微信公众号：[信息科技实验室](https://123.616161.best/img/istlab-wxQRcode.png)
+- 👀 网站评论区不定期查看
+
 ## 维护项目
 
-- 💬 微信公众号：信息科技实验室
 - 📕 导航站：[EdTech 教育技术导航](https://123.616161.best/)
 
 ## 友情链接

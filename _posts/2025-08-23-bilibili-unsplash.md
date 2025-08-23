@@ -4,9 +4,9 @@ date: 2025-08-23
 # excerpt_separator: "<!--more-->"
 toc: false
 categories:
-  - 博客
+  - blog
 tags:
-  - blibli
+  - bilibili
   - unsplash
 gallery:
   - url: https://unsplash.com/photos/the-sun-is-setting-over-the-ocean-at-the-beach-1yjzCjwYcOo
