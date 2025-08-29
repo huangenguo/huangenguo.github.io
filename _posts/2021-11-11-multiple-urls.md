@@ -3,7 +3,7 @@ title: "超链接的打开、复制或收藏"
 last_modified_at: 2025-08-13
 excerpt_separator: "<!--more-->"
 categories:
-  - tech
+  - Tech
 tags:
   - 超链接
   - 浏览器扩展

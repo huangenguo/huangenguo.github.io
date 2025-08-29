@@ -4,7 +4,7 @@ date: 2025-08-23
 # excerpt_separator: "<!--more-->"
 toc: false
 categories:
-  - blog
+  - Blog
 tags:
   - bilibili
   - unsplash

@@ -3,7 +3,7 @@ title: "Post: Notice"
 comments: false
 toc: false
 categories:
-  - blog
+  - Blog
 tags:
   - Post Formats
   - notice
