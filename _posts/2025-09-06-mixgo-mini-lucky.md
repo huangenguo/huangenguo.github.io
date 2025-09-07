@@ -1,12 +1,12 @@
 ---
-title: "[项目分享]基于 Mixly Mini 的幸运抽签小程序！"
+title: "[项目分享]基于 Mixgo Mini 的幸运抽签小程序！"
 excerpt_separator: "<!--more-->"
 categories:
   - Tech
   - Education
 tags:
   - 米思齐
-  - Mixly Mini
+  - Mixgo Mini
   - 信息科技
   - 创客教育
   - MicroPython编程教学
