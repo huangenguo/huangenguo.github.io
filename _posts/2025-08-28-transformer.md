@@ -30,6 +30,7 @@ Transformer 不仅是一个寓意词，更是谷歌开发的重要深度学习�
 ## AI学习资源推荐
 
 ### 英伟达学习平台
+
 1. [NVIDIA Deep Learning Institute (DLI)](https://www.nvidia.com/zh-cn/training/)
    - 提供免费和付费的在线课程
    - 包括深度学习、计算机视觉等方向
@@ -46,6 +47,7 @@ Transformer 不仅是一个寓意词，更是谷歌开发的重要深度学习�
    - SDK和开发工具
 
 ### Google AI学习资源
+
 1. [Google AI Learning](https://ai.google/education/)
    - Machine Learning Crash Course
    - TensorFlow教程
@@ -59,6 +61,7 @@ Transformer 不仅是一个寓意词，更是谷歌开发的重要深度学习�
 国内网络问题，优先使用这个网址来访问[Google for Developers - 从 AI 和云到移动和 Web](https://developers.google.cn/?hl=zh-cn)
 
 ### 实践平台
+
 1. [Google Colab](https://colab.research.google.com/)
    - 免费GPU资源
    - 支持Python和TensorFlow
@@ -70,6 +73,7 @@ Transformer 不仅是一个寓意词，更是谷歌开发的重要深度学习�
    - 社区学习
 
 ### 国内AI学习平台
+
 1. [飞桨PaddlePaddle](https://www.paddlepaddle.org.cn/)
    - 百度开源深度学习平台
    - 完整的中文文档
@@ -86,7 +90,8 @@ Transformer 不仅是一个寓意词，更是谷歌开发的重要深度学习�
    - 全中文文档支持
    - 详细的教程示例
 
-### 实践平台
+### 国内实践平台
+
 1. [智源社区](https://www.baai.ac.cn/)
    - 北京智源人工智能研究院
    - 开放数据集
@@ -98,6 +103,7 @@ Transformer 不仅是一个寓意词，更是谷歌开发的重要深度学习�
    - 免费算力支持
 
 ### 学习社区
+
 1. [AIStudio](https://aistudio.baidu.com/)
    - 免费算力资源
    - 深度学习教程
@@ -113,7 +119,8 @@ Transformer 不仅是一个寓意词，更是谷歌开发的重要深度学习�
 ## 个人感悟
 
 正是这样一群变革者，让世界有了更多可能性。对于我个人的启示是：
-1. 拥抱变化，迎接未来。新颖的不确定的可能。从过去的信息化、网络化，开始迈向智能化、无人化的阶段。
+
+1. 拥抱变化，迎接未来。新颖的不确定的可能。
 2. 持续学习，跟进技术发展。
 3. 实践结合，提升实战能力。先不要质疑或者自我怀疑自己的能力是否足够，成见难免，但难的不可能的事务才有挑战的和花费时间探索学习的意义。
 4. 在认识了人工智能发展有人的思维、经验模拟和计算工具发展演变两个路径之后，认为自己往往会相对倾向技术的一面，而忽视了人的一面，该怎么与不同的人打交道也是一门值得花费功夫去认真做的功课。目的一是迭代学习技术，二是得到最广泛的人的认可，两者并重。作为教育技术者，既要重视技术，也要重视教育性（趣味）的一面，两者并重。

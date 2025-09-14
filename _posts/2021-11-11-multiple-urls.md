@@ -38,6 +38,7 @@ _blank: blank 是空白的意思，也就是说带有 _blank 元素的超链接�
 <a href="" target="_self">超链接带有 _self 元素，当前页面加载</a>
 <a href="">超链接无 _blank 元素,当前页面加载</a>
 ```
+
 <a href="https://huangenguo.github.io/" target="_blank">超链接带有 _blank 元素</a>
 
 <a href="https://huangenguo.github.io/">超链接无 _blank 元素</a>
@@ -60,8 +61,6 @@ _blank: blank 是空白的意思，也就是说带有 _blank 元素的超链接�
 ## linkclump 让你同时打开、复制或收藏多条链接的拓展
 
 ![可视化的方式框选链接，图片源自 linkclump 官方](https://cdn.jsdelivr.net/gh/huangenguo/img@main/Linkclump1.png)
-
-
 
 ![新标签页打开超链接](https://cdn.jsdelivr.net/gh/huangenguo/img@main/Linkclump4.png)
 
@@ -103,7 +102,7 @@ _blank: blank 是空白的意思，也就是说带有 _blank 元素的超链接�
 >
 > Firefox 有个移植版 [Linkclump for Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/linkclump-for-firefox/)
 >
-> Firefox 上面的替代品就是 [Snap Links Plus ](https://addons.mozilla.org/zh-CN/firefox/addon/snaplinksplus/)
+> Firefox 上面的替代品就是 [Snap Links Plus](https://addons.mozilla.org/zh-CN/firefox/addon/snaplinksplus/)
 
 ### Open-Multiple-URLs 打开多个链接（仅作备用）
 
@@ -131,9 +130,9 @@ Vim 是命令行界面下的编辑器。我用的不多。
 
 ### 同类 vimium 插件
 
->  16.8k★ [philc/vimium: The hacker's browser.](https://github.com/philc/vimium)
+> 16.8k★ [philc/vimium: The hacker's browser.](https://github.com/philc/vimium)
 >
->  1.1k★ [gdh1995/vimium-c: 一个基于键盘的浏览器扩展快捷键和一个高级的标签栏操作](https://github.com/gdh1995/vimium-c)
+> 1.1k★ [gdh1995/vimium-c: 一个基于键盘的浏览器扩展快捷键和一个高级的标签栏操作](https://github.com/gdh1995/vimium-c)
 
 ### 用法
 
@@ -168,9 +167,7 @@ Vim 是命令行界面下的编辑器。我用的不多。
 
 配置的导入非常简单，打开👆我给的网址，Raw 处右键复制链接。
 
-![](https://cdn.jsdelivr.net/gh/huangenguo/img@main/Surfingkeys-配置1.png)
-
-
+![复制链接](https://cdn.jsdelivr.net/gh/huangenguo/img@main/Surfingkeys-配置1.png)
 
 打开 Surfingkeys 扩展选项，选择高级模式 Advance mode，粘贴链接并保存即可。
 
