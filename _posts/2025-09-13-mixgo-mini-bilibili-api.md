@@ -25,19 +25,21 @@ tags:
 
 ### 方案一：直接调用B站API（推荐）
 
-```Python
+```python
 UID=32828583
 String followerUrl = "https://api.bilibili.com/x/relation/stat?vmid=" + UID;   // 粉丝数 follower 的值
 String viewAndLikesUrl = "https://api.bilibili.com/x/space/upstat?mid=" + UID; // 播放数 archive 的 view 键的值、点赞数 likes 的值
 ```
 
-[B站粉丝计数器 | ESP32学习之旅-Arduino版 DF创客社区](https://mc.dfrobot.com.cn/thread-303095-1-1.html)
+[B站粉丝计数器 \| ESP32学习之旅-Arduino版 DF创客社区](https://mc.dfrobot.com.cn/thread-303095-1-1.html)
+
+Markdown 会把 '|' 竖杠理解成表格，尝试用\斜杠来表示
 
 ### 方案二：Substats API
 
 代码年久失修，部分功能失效。
 
-```Python
+```python
 https://api.spencerwoo.com/substats/?source=github&queryKey=spencerwooo
 https://api.spencerwoo.com/substats/?source=bilibili&queryKey=32828583
 ```
@@ -70,7 +72,7 @@ https://api.spencerwoo.com/substats/?source=bilibili&queryKey=32828583
 
 ## HTTPS 请求错误
 
-> 遇到的 ImportError: no module named 'ussl' 错误，本质是当前 Mixgo MINI 的 MicroPython 固件缺少ussl模块的解决方案即不带 SSL/HTTPS 支持。
+> 遇到 ImportError: no module named 'ussl' 错误
 
 前面测试过官方示例，出现这个问题，更多是在 B 站 API 的特殊性 上（比如强制 HTTPS 重定向、需要特定请求头、反爬虫限制等）。
 
@@ -84,13 +86,16 @@ B 站 API 可能强制 HTTPS 重定向，所以需要使用 HTTPS 请求。
 ## 常见错误码解释
 
 -202：域名解析失败（DNS 问题）。同一IP地址的反爬限制。同样是接入手机热点，一是使用手机移动蜂窝网络，二是使用路由器WiFi。
+
 -103：连接超时
+
 -110：连接被拒绝
+
 -104：连接重置
 
 ## B站粉丝数获取代码示例
 
-```Python
+```python
 import network
 import mixiot
 import urequests
@@ -145,7 +150,7 @@ if __name__ == "__main__":
 升级需求
 JOSN反序列化处理成字典并显示字典的follower字段，点阵屏会不断滚动显示当前粉丝数，每 10 分钟自动更新一次数据
 
-```Python
+```python
 import network
 import mixiot
 import urequests
@@ -235,5 +240,15 @@ if __name__ == "__main__":
 ## 参考资源
 
 [Bilibili API 文档](https://github.com/SocialSisterYi/bilibili-API-collect)
+
 [Mixly 官方文档](https://mixly.cn/)
+
 [MicroPython 网络编程](https://docs.micropython.org/en/latest/library/network.html)
+
+## 升级需求
+
+按键重置
+
+网页配置新的热点
+
+休眠模式

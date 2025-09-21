@@ -1,5 +1,5 @@
 ---
-title: "[项目分享]基于 Mixgo Mini 的幸运抽签小程序！2"
+title: "基于 Mixgo Mini 的幸运抽签小程序！2"
 excerpt_separator: "<!--more-->"
 categories:
   - Tech
