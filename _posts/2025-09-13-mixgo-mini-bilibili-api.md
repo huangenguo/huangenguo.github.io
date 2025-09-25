@@ -8,7 +8,7 @@ tags:
   - 米思齐
   - Mixgo Mini
   - 粉丝计数器
-  - Bilibili API
+  - Bilibili
 ---
 {% include video id="BV1qZHfzPER9" provider="bilibili" danmaku="1" %}
 
@@ -33,7 +33,7 @@ String viewAndLikesUrl = "https://api.bilibili.com/x/space/upstat?mid=" + UID; /
 
 [B站粉丝计数器 \| ESP32学习之旅-Arduino版 DF创客社区](https://mc.dfrobot.com.cn/thread-303095-1-1.html)
 
-Markdown 会把 '|' 竖杠理解成表格，尝试用\斜杠来表示
+Markdown 会把 \| 竖杠理解成表格，尝试用\斜杠来转义
 
 ### 方案二：Substats API
 

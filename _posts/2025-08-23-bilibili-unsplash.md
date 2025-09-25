@@ -6,7 +6,7 @@ toc: false
 categories:
   - Blog
 tags:
-  - bilibili
+  - Bilibili
   - unsplash
 gallery:
   - url: https://unsplash.com/photos/the-sun-is-setting-over-the-ocean-at-the-beach-1yjzCjwYcOo

@@ -5,12 +5,10 @@ last_modified_at: 2025-09-05
 categories:
   - Tech
 tags:
-  - 人工智能
+  - 人工智能通识教育
   - Transformer
   - NVIDIA
   - 深度学习
-  - AI发展
-  - 趣味性
 ---
 
 ## Transformer的启发

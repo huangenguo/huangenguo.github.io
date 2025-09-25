@@ -9,7 +9,7 @@ tags:
   - Mixgo Mini
   - 信息科技
   - 创客教育
-  - MicroPython编程教学
+  - MicroPython
   - STEAM教育
   - 幸运抽签
 ---
