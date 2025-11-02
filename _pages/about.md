@@ -27,7 +27,7 @@ header:
 
 - ACG 文化爱好者
 - 科幻迷
-- 终身学习者 
+- 终身学习者
 
 ## 联系我
 
@@ -45,11 +45,14 @@ header:
 ## 小站历程
 
 ### 2025年
+
 - 🆕 持续更新中...
 
 ### 2021年
+
 - 📝 发布第一篇博文 (2021.11.17)
 - 🎉 使用 [GitHub Pages](https://pages.github.com/)、 [Jekyll](https://jekyllrb.com/) & [Minimal Mistakes](https://mademistakes.com/work/minimal-mistakes-jekyll-theme/) 完成小站基础框架搭建，框架的选择灵感源于 [阳志平的网志](https://www.yangzhiping.com/)(2021.10.20)
 
 ### 2017年
+
 - 🚀 首次尝试使用 [GitHub Pages](https://pages.github.com/)、[Hexo](https://hexo.io/zh-cn/) 搭建过一个静态博客，已停止维护(2017.11.07)

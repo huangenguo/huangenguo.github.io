@@ -38,9 +38,25 @@ _blank: blank 是空白的意思，也就是说带有 `_blank` 元素的超链�
 <a href="">超链接无 _blank 元素,当前页面加载</a>
 ```
 
-<a href="https://huangenguo.github.io/" target="_blank">超链接带有 _blank 元素</a>
+下面给出可复制到 HTML 文件中或在支持 HTML 的渲染器中预览的示例（将 HTML 放入代码块以避免 inline HTML 的 lint 警告）：
 
-<a href="https://huangenguo.github.io/">超链接无 _blank 元素</a>
+```html
+<!-- 带 target="_blank"：在新标签页打开，推荐加 rel 属性 -->
+<a href="https://huangenguo.github.io/" target="_blank" rel="noopener noreferrer">
+  超链接带有 _blank 元素（在新标签页打开）
+</a>
+
+<!-- 不带 target：在当前页打开（可按 Ctrl / Cmd + 点击在新标签页打开） -->
+<a href="https://huangenguo.github.io/">
+  超链接无 _blank 元素（在当前页打开）
+</a>
+```
+
+如何验证：
+
+- 将上述代码保存为 .html 并在浏览器中打开；点击第一个链接会在新标签页打开，第二个在当前页打开。
+- 对第二个链接按住 Ctrl（Windows/Linux）或 Cmd（macOS）再点击，可在新标签页打开（不需 target）。
+- 在实际文章中若需示例链接使用 Markdown 语法（[文本](url)），其默认行为等同于无 target 的 a 元素（或称锚元素）。
 
 > [a 元素（或称锚元素）- HTML（超文本标记语言）- MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/a)
 >
@@ -133,7 +149,7 @@ Vim 是命令行界面下的编辑器。我用的不多。
 >
 > 1.1k★ [gdh1995/vimium-c: 一个基于键盘的浏览器扩展快捷键和一个高级的标签栏操作](https://github.com/gdh1995/vimium-c)
 
-### 用法
+### 使用方法
 
 ![图片源自Surfingkeys官方](https://cdn.jsdelivr.net/gh/huangenguo/img@main/图片源自Surfingkeys官方.png)
 
@@ -143,7 +159,7 @@ Vim 是命令行界面下的编辑器。我用的不多。
 
 优点：扩展选项中勾选允许访问文件 URL，适用于 Edge 的 PDF 文件。
 
-### 安装
+### 插件安装
 
 官方以及网上的解读非常详细了，参考以下两篇进行更详细的了解：
 
