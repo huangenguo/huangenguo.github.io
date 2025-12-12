@@ -1,13 +1,11 @@
 ---
-title: "基于 Mixgo Mini 的射击游戏"
+title: "基于 Mixgo Mini 的投球机"
 excerpt_separator: "<!--more-->"
 categories:
   - Tech
   - Education
 tags:
   - 米思齐
-  - Mixgo Mini
-  - 射击游戏
 ---
 
 ## 接收器

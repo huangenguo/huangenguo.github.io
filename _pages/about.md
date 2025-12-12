@@ -38,9 +38,7 @@ header:
 
 - 📕 导航站：[EdTech 教育技术导航](https://123.616161.best/)
 
-## 友情链接
-
-[友情链接 - 黄恩果的小站](https://huangenguo.github.io/blog/friends/)
+## [友情链接](https://huangenguo.github.io/blog/friends/)
 
 ## 小站历程
 

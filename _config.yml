@@ -81,10 +81,16 @@ author:
     - label: "EdTech 教育技术导航"
       icon: "fas fa-fw fa-link"
       url: "https://123.616161.best/"
+    - label: "潮汕信息网"
+      icon: "fas fa-fw fa-link"
+      url: "https://cs.616161.best/"
 
 footer:
-  # links:
   since: "2021"      
+  links:
+    - label: "友链"
+      icon: "fab fa-fw fa-link"
+      url: "https://huangenguo.github.io/blog/friends/"  
 
 defaults:
   # _posts
