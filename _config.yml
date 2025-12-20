@@ -89,7 +89,7 @@ footer:
   since: "2021"      
   links:
     - label: "友链"
-      icon: "fab fa-fw fa-link"
+      icon: "fas fa-fw fa-link"
       url: "https://huangenguo.github.io/blog/friends/"  
 
 defaults:
