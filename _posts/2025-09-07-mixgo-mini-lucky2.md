@@ -51,3 +51,11 @@ tags:
 本项目结合米思齐硬件平台和 MixIO 物联网服务，实现了一个趣味性与实用性兼具的互动应用，给予参与者积极的心理暗示，为师生新学期开学带来好运~。欢迎各位老师同学基于此程序进行创新，共同探索更多有趣的应用场景！
 
 完整内容参考[幸运抽签小程序2](https://mc.dfrobot.com.cn/thread-397701-1-1.html?fromuid=843218)
+
+## 参考教程
+
+[MixIO详细教程 齐护机器人CSDN](https://blog.csdn.net/fengydongdong/article/details/136017627)
+
+[MixIO组件入门指南](https://mixio.mixly.cn/documentation/)
+
+[MixIO逻辑视图API](https://mixio.mixly.cn/devAPI)

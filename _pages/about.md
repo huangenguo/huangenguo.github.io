@@ -49,7 +49,7 @@ header:
 ### 2021年
 
 - 📝 发布第一篇博文 (2021.11.17)
-- 🎉 使用 [GitHub Pages](https://pages.github.com/)、 [Jekyll](https://jekyllrb.com/) & [Minimal Mistakes](https://mademistakes.com/work/minimal-mistakes-jekyll-theme/) 完成小站基础框架搭建，框架的选择灵感源于 [阳志平的网志](https://www.yangzhiping.com/)(2021.10.20)
+- 🎉 使用 [GitHub Pages](https://pages.github.com/)、 [Jekyll](https://jekyllrb.com/) & [Minimal Mistakes](https://mademistakes.com/work/minimal-mistakes-jekyll-theme/) 完成小站基础框架搭建，框架的选择灵感源于 [阳志平的网志](https://yangzhiping.com/)(2021.10.20)
 
 ### 2017年
 

@@ -68,6 +68,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-minifier
 
 author:
   name   : "创客恩果"
@@ -131,3 +132,14 @@ analytics:
 
 comments:
   provider: "custom"
+
+# Jekyll Minifier 配置 - 压缩静态资源提升网站性能
+jekyll-minifier:
+  compress_css: true        # 压缩CSS文件，移除空白字符和注释
+  compress_javascript: true # 压缩JavaScript文件，减小脚本体积
+  compress_json: true       # 压缩JSON文件
+  compress_html: true       # 压缩HTML文件，移除多余空白和换行
+  uglifier:
+    harmony: true           # 启用ES6+语法支持
+  preserve_patterns:
+    - '<!--\s*no\s*minify\s*-->'  # 保留包含此注释的内容不被压缩
