@@ -14,6 +14,14 @@
 
     <div class="initial-content">
       {{ content }}
+      
+      {% if page.layout == 'single' or page.layout == 'post' %}
+        <!-- 系列导航 -->
+        {% include series-nav.html %}
+        
+        <!-- 随机文章推荐 -->
+        {% include random-posts.html %}
+      {% endif %}
     </div>
 
     {% if site.search == true %}
