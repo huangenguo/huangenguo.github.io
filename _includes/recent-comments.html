@@ -1,0 +1,186 @@
+<div class="recent-comments">
+  <h3 class="recent-comments__title">
+    <i class="fas fa-comments" aria-hidden="true"></i> 最新评论
+  </h3>
+  <div id="recent-comments-list" class="recent-comments__list">
+    <div class="recent-comments__loading">加载中...</div>
+  </div>
+</div>
+
+<style>
+.recent-comments {
+  margin: 2em 0;
+  padding: 1em;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.recent-comments__title {
+  margin: 0 0 1em 0;
+  font-size: 1.1em;
+  color: #333;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5em;
+}
+
+.recent-comments__title i {
+  color: #3498db;
+  margin-right: 0.5em;
+}
+
+.recent-comments__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.recent-comments__loading,
+.recent-comments__empty {
+  text-align: center;
+  color: #7f8c8d;
+  padding: 1em;
+}
+
+.recent-comment {
+  padding: 0.8em 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.recent-comment:last-child {
+  border-bottom: none;
+}
+
+.recent-comment__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.3em;
+}
+
+.recent-comment__avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin-right: 0.6em;
+  background: #ddd;
+}
+
+.recent-comment__author {
+  font-weight: 600;
+  color: #2c3e50;
+  font-size: 0.9em;
+}
+
+.recent-comment__time {
+  margin-left: auto;
+  font-size: 0.75em;
+  color: #95a5a6;
+}
+
+.recent-comment__content {
+  color: #555;
+  font-size: 0.9em;
+  line-height: 1.5;
+  margin: 0.3em 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.recent-comment__post {
+  font-size: 0.8em;
+  color: #7f8c8d;
+}
+
+.recent-comment__post a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.recent-comment__post a:hover {
+  text-decoration: underline;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  if (typeof twikoo === 'undefined') {
+    setTimeout(initRecentComments, 2000);
+  } else {
+    initRecentComments();
+  }
+});
+
+function initRecentComments() {
+  if (typeof twikoo === 'undefined') {
+    document.getElementById('recent-comments-list').innerHTML = 
+      '<div class="recent-comments__empty">评论系统加载中...</div>';
+    return;
+  }
+
+  twikoo.getRecentComments({
+    envId: 'https://twikoo.616161.best',
+    pageSize: 5,
+    includeReply: false
+  }).then(function(response) {
+    if (response.data && response.data.length > 0) {
+      renderRecentComments(response.data);
+    } else {
+      document.getElementById('recent-comments-list').innerHTML = 
+        '<div class="recent-comments__empty">暂无评论</div>';
+    }
+  }).catch(function(error) {
+    console.error('获取最新评论失败:', error);
+    document.getElementById('recent-comments-list').innerHTML = 
+      '<div class="recent-comments__empty">评论加载失败</div>';
+  });
+}
+
+function renderRecentComments(comments) {
+  const html = comments.map(function(comment) {
+    const content = stripHtml(comment.comment).substring(0, 80);
+    const timeAgo = formatTimeAgo(comment.created);
+    const avatar = comment.avatar || 'https://cravatar.cn/avatar/' + comment.mailMd5 + '?d=mp';
+    
+    return '<div class="recent-comment">' +
+      '<div class="recent-comment__header">' +
+        '<img src="' + avatar + '" alt="" class="recent-comment__avatar">' +
+        '<span class="recent-comment__author">' + escapeHtml(comment.nick) + '</span>' +
+        '<span class="recent-comment__time">' + timeAgo + '</span>' +
+      '</div>' +
+      '<div class="recent-comment__content">' + escapeHtml(content) + '</div>' +
+      '<div class="recent-comment__post">评: <a href="' + comment.url + '">' + comment.url + '</a></div>' +
+    '</div>';
+  }).join('');
+  
+  document.getElementById('recent-comments-list').innerHTML = html;
+}
+
+function stripHtml(html) {
+  const tmp = document.createElement('div');
+  tmp.innerHTML = html;
+  return tmp.textContent || tmp.innerText || '';
+}
+
+function escapeHtml(text) {
+  const div = document.createElement('div');
+  div.textContent = text;
+  return div.innerHTML;
+}
+
+function formatTimeAgo(timestamp) {
+  const seconds = Math.floor((new Date() - new Date(timestamp)) / 1000);
+  
+  if (seconds < 60) return '刚刚';
+  const minutes = Math.floor(seconds / 60);
+  if (minutes < 60) return minutes + '分钟前';
+  const hours = Math.floor(minutes / 60);
+  if (hours < 24) return hours + '小时前';
+  const days = Math.floor(hours / 24);
+  if (days < 30) return days + '天前';
+  const months = Math.floor(days / 30);
+  if (months < 12) return months + '个月前';
+  return Math.floor(months / 12) + '年前';
+}
+</script>
