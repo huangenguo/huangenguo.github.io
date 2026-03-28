@@ -9,23 +9,28 @@
 
 <style>
 .popular-posts {
-  margin: 2em 0;
-  padding: 1em;
-  background: #f8f9fa;
-  border-radius: 8px;
+  margin: 2rem 0;
+  padding: 0;
+  background: transparent;
+  border-top: 1px solid #e9dcbe;
+  padding-top: 1.5rem;
 }
 
 .popular-posts__title {
-  margin: 0 0 1em 0;
-  font-size: 1.1em;
-  color: #333;
-  border-bottom: 2px solid #e74c3c;
-  padding-bottom: 0.5em;
+  margin: 0 0 1rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #3d4144;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
 .popular-posts__title i {
   color: #e74c3c;
-  margin-right: 0.5em;
+  margin-right: 0.5rem;
+  font-size: 0.9rem;
 }
 
 .popular-posts__list {
@@ -38,39 +43,50 @@
 .popular-posts__empty {
   text-align: center;
   color: #7f8c8d;
-  padding: 1em;
+  padding: 1rem 0;
+  font-size: 0.85rem;
 }
 
 .popular-posts__item {
-  margin: 0.8em 0;
+  margin: 0;
+  border-bottom: 1px solid #f2f3f3;
+}
+
+.popular-posts__item:last-child {
+  border-bottom: none;
 }
 
 .popular-posts__link {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   text-decoration: none;
   color: inherit;
-  transition: background 0.2s;
-  padding: 0.5em;
-  border-radius: 4px;
+  transition: all 0.2s ease;
+  padding: 0.6rem 0;
+  border-radius: 0;
 }
 
 .popular-posts__link:hover {
-  background: rgba(0,0,0,0.05);
+  background: transparent;
+  color: #2a76dd;
+}
+
+.popular-posts__link:hover .popular-posts__name {
+  color: #2a76dd;
 }
 
 .popular-posts__rank {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 24px;
-  height: 24px;
-  background: #ddd;
-  color: #666;
-  border-radius: 4px;
-  font-size: 0.85em;
-  font-weight: bold;
-  margin-right: 0.8em;
+  width: 20px;
+  height: 20px;
+  background: #f2f3f3;
+  color: #7a8288;
+  border-radius: 3px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-right: 0.75rem;
   flex-shrink: 0;
 }
 
@@ -86,7 +102,7 @@
 
 .popular-posts__item:nth-child(3) .popular-posts__rank {
   background: #f1c40f;
-  color: #333;
+  color: #3d4144;
 }
 
 .popular-posts__content {
@@ -97,22 +113,25 @@
 }
 
 .popular-posts__name {
-  font-weight: 500;
-  color: #2c3e50;
+  font-weight: 400;
+  color: #3d4144;
   line-height: 1.4;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
 }
 
 .popular-posts__meta {
-  font-size: 0.8em;
-  color: #7f8c8d;
-  margin-top: 0.2em;
+  font-size: 0.75rem;
+  color: #9ba1a6;
+  margin-top: 0.15rem;
 }
 
 .popular-posts__meta i {
-  margin-right: 0.3em;
+  margin-right: 0.3rem;
+  font-size: 0.7rem;
 }
 </style>
 
