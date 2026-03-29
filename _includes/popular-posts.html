@@ -10,8 +10,10 @@
 <style>
 .popular-posts {
   margin: 1rem 0;
-  padding: 0;
-  background: transparent;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #f2f3f3;
+  border-radius: 4px;
 }
 
 .popular-posts__title {
@@ -186,11 +188,11 @@ function initPopularPosts() {
     const sortedPosts = results
       .filter(function(post) { return post.count > 0; })
       .sort(function(a, b) { return b.count - a.count; })
-      .slice(0, 6);
+      .slice(0, 5);
 
     if (sortedPosts.length === 0) {
       const recentPosts = allPostsForPopular
-        .slice(0, 6)
+        .slice(0, 5)
         .map(function(post) {
           return {
             title: post.title,
