@@ -1,27 +1,86 @@
-# Minimal Mistakes remote theme starter
+# 教育技术自留地
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+> 信息技术教育 | 教育科学研究 | 学习科学
 
-Contains basic configuration to get you a site with:
+👋 你好，欢迎来到我的小站！
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+我是恩果（[@huangenguo](https://github.com/huangenguo)），一名有智友爱有趣的 90 后潮汕人，专注于教育科技领域的探索与研究。
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+## 关于这个站点
+
+「教育技术自留地」是我的个人博客，记录我在教育技术、教研探索和学习思考方面的心得与经验。
+
+### 内容方向
+
+- 📚 **教育科学研究** - 教研方法、教学设计与反思
+- 🔬 **学习科学** - 认知科学、学习理论与技术应用
+- 💻 **信息技术教育** - 编程教育、创客教育、AI 教育
+- 🛠️ **工具与效率** - 实用工具分享、工作流程优化
+- 💭 **生活随想** - 工作、阅读与生活的点滴感悟
+
+## 为什么选择这个方案
+
+### 技术栈
+
+- **[GitHub Pages](https://pages.github.com/)** - 免费托管、版本管理、便捷部署
+- **[Jekyll](https://jekyllrb.com/)** - 静态博客生成器，Markdown 写作体验
+- **[Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)** - 成熟的 Jekyll 主题，功能丰富且易于定制
+
+### 写作体验
+
+- ✍️ **Markdown 写作** - 专注内容，无需关注排版
+- 👀 **本地预览** - 即时查看效果，所见即所得
+- 📝 **Git 版本控制** - 写作历史可追溯，支持协作
+- 🚀 **自动部署** - 推送到 GitHub 即可自动发布
+
+> 💡 选择 Minimal Mistakes 的灵感源于 [阳志平的网志](https://yangzhiping.com/)
+
+## 站点特色
+
+### 阅读体验
+
+- 🔍 **全文搜索** - Lunr.js 驱动的站内搜索，快速定位内容
+- 📖 **阅读时间估算** - 智能计算文章阅读时长
+- 📑 **自动生成目录** - 长文自动提取目录，支持吸顶跟随
+
+### 交互功能
+
+- 💬 **评论系统** - Twikoo 评论服务，支持匿名留言
+- 🔥 **热门文章** - 基于评论数动态展示热门内容
+- 📚 **系列导航** - 系列教程专属导航，进度条一目了然
+- ⬆️ **悬浮按钮** - 智能判断滚动方向，一键跳转顶部/底部
+
+### 性能优化
+
+- 📋 **代码复制** - 代码块一键复制按钮
+- 🗜️ **资源压缩** - Jekyll Minifier 自动压缩静态资源
+- 🖼️ **CDN 加速** - 图片使用 Unsplash CDN
+
+## 内容概览
+
+目前已发布 **40+** 篇文章，涵盖以下主题：
+
+| 主题 | 代表文章 |
+|------|----------|
+| 创客教育 | MixGo Mini 系列教程、ESP32-CAM 项目 |
+| AI 教育 | AI 入门指南、AI4Kids 实践 |
+| 机器视觉 | K210 视觉模块应用 |
+| 工具分享 | PDF 处理工具、Markdown 技巧 |
+| 阅读思考 | 读书笔记、生活感悟 |
+
+## 交流与联系
+
+- 💬 **微信公众号**：[信息科技实验室](https://123.616161.best/img/istlab-wxQRcode.png)
+- 🔗 **友链交换**：[友情链接页面](https://huangenguo.github.io/blog/friends/)
+- 📝 **留言评论** - 任意文章底部均可留言
+- 🧭 **导航站**：[EdTech 教育技术导航](https://123.616161.best/)
+
+## 致谢
+
+- 本站基于 [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) Jekyll 主题构建
+- 部署于 [GitHub Pages](https://pages.github.com/)
+- 原主题说明文档请查看 [README.en.md](./README.en.md)
 
 ---
 
-## Troubleshooting
-
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
-
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+*🌱 持续更新中，欢迎常来坐坐！*

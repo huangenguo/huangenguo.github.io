@@ -9,6 +9,10 @@ tags:
   - Mixgo Mini
   - 粉丝计数器
   - Bilibili
+series:
+  name: "Mixgo Mini 开发实战"
+  index: 5  # 当前是第几篇
+  total: 7  # 系列总共几篇 
 ---
 {% include video id="BV1qZHfzPER9" provider="bilibili" danmaku="1" %}
 

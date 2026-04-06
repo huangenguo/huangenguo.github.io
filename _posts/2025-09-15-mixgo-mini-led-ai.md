@@ -9,6 +9,10 @@ tags:
   - Mixgo Mini
   - LED编程
   - AI编程
+series:
+  name: "Mixgo Mini 开发实战"
+  index: 6  # 当前是第几篇
+  total: 7  # 系列总共几篇 
 ---
 
 AI辅助硬件编程成为一项新的范式逐步走进公众视野，除了前一阵推出的linkboy AI以外，还有诸多生成式人工智能为硬件编程带来了新的可能，本文受微信视频号的启发，结合Kimi生成式人工智能与米思齐编程平台开展基于 Mixgo Mini 的灯带编程实验。
