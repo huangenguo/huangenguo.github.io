@@ -101,7 +101,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true # 显示阅读时间
+      read_time: false # 显示阅读时间
       words_per_minute: 200 # 设置阅读速度
       comments: true
       share: false

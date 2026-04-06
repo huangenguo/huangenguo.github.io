@@ -1,5 +1,4 @@
-***
-
+---
 permalink: /about/
 last\_modified\_at: 2026-04-06
 title: "关于"
@@ -9,7 +8,7 @@ tagline: "有智，友爱，有趣！"
 header:
 overlay\_image: <https://images.unsplash.com/photo-1645355405065-ba34cf28532c?q=80&w=973&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D>
 caption: "Photo credit: **[Unsplash](https://unsplash.com/photos/the-sun-is-setting-over-the-ocean-at-the-beach-1yjzCjwYcOo)**"
--------------------------------------------------------------------------------------------------------------------------------
+---
 
 ## 👋 你好，我是恩果
 
@@ -22,8 +21,6 @@ caption: "Photo credit: **[Unsplash](https://unsplash.com/photos/the-sun-is-sett
 目前专注于 **3\~8年级** 的创客教育，带领孩子们通过开源硬件、激光切割、3D建模等项目，在实践中学习编程思维、培养创新能力。我相信「做中学」的力量，也相信技术教育应该是**有智、友爱、有趣**的。
 
 除了课堂教学，我也关注AI通识教育、学习科学，并在这里记录我的教学实践、工具探索和思考感悟。
-
-***
 
 ## 🎯 我在做什么
 
@@ -123,7 +120,9 @@ caption: "Photo credit: **[Unsplash](https://unsplash.com/photos/the-sun-is-sett
 
 欢迎通过以下方式与我互动交流：
 
-- 📱 **微信公众号**：[信息科技实验室](https://123.616161.best/img/istlab-wxQRcode.png) —— 关注获取更多教学资源和动态
+- 📱 **微信公众号**：信息科技实验室 —— 关注获取更多教学资源和动态
+
+  ![微信公众号二维码](https://123.616161.best/img/istlab-wxQRcode.png)
 - 💬 **文章评论** —— 有任何想法或问题，欢迎在任意文章底部留言
 - 🐙 **GitHub**：[@huangenguo](https://github.com/huangenguo)
 
