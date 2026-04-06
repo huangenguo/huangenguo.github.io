@@ -9,11 +9,7 @@ tags:
   - Mixgo Mini
   - 红外测距传感器
   - 游戏设计
-series:
-  name: "Mixgo Mini 开发实战"
-  index: 7  # 当前是第几篇
-  total: 7  # 系列总共几篇 
- ---
+---
 
 ## 接收器
 

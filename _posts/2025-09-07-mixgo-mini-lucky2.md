@@ -12,10 +12,6 @@ tags:
   - MicroPython
   - 物联网
   - 幸运抽签
-series:
-  name: "Mixgo Mini 开发实战"
-  index: 4  # 当前是第几篇
-  total: 7  # 系列总共几篇 
 ---
 {% include video id="BV1yjYjzHE5a" provider="bilibili" danmaku="1" %}
 

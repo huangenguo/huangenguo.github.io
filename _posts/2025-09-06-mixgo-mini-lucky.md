@@ -12,10 +12,6 @@ tags:
   - MicroPython
   - STEAM教育
   - 幸运抽签
-series:
-  name: "Mixgo Mini 开发实战"
-  index: 3  # 当前是第几篇
-  total: 7  # 系列总共几篇 
 ---
 {% include video id="BV17dYMzXE8x" provider="bilibili" danmaku="1" %}
 

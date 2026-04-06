@@ -9,10 +9,6 @@ tags:
   - Mixgo Mini
   - MicroPython
   - 创客教育
-series:
-  name: "Mixgo Mini 开发实战"
-  index: 1  # 当前是第几篇
-  total: 7  # 系列总共几篇 
 ---
 Power By AI And Me.
 
