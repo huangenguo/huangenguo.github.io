@@ -110,7 +110,7 @@ caption: "Photo credit: **[Unsplash](https://unsplash.com/photos/the-sun-is-sett
 
 - 💬 **留言交流** —— 在文章底部留下你的想法和建议
 - 🔗 **分享传播** —— 觉得有用就分享给需要的同事或朋友
-- 🤝 **交换友链** —— 有同类教育博客？欢迎[交换友情链接](/friends/)
+- 🤝 **交换友链** —— 有同类教育博客？欢迎[交换友情链接](/blog/friends/)
 
 感谢每一位读者的陪伴，你们的存在让这个「自留地」更有意义！
 
@@ -134,7 +134,7 @@ caption: "Photo credit: **[Unsplash](https://unsplash.com/photos/the-sun-is-sett
 
 ### 2025年至今
 
-- 🆕 持续更新中... 已发布40+篇原创文章
+- 🆕 持续更新中... 已发布40+篇文章
 
 ### 2021年
 
@@ -144,6 +144,10 @@ caption: "Photo credit: **[Unsplash](https://unsplash.com/photos/the-sun-is-sett
 ### 2017年
 
 - 🚀 首次尝试使用 [GitHub Pages](https://pages.github.com/)、[Hexo](https://hexo.io/zh-cn/) 搭建静态博客，已停止维护 (2017.11.07)
+
+### 功能更新
+
+如需了解站点的详细功能更新历史，请查看：[站点功能更新日志](/blog/site-changelog/)。
 
 ***
 
