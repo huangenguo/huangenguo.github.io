@@ -77,7 +77,7 @@ author:
   location : "Guangdong,China"
   links:
     - label: "信息科技实验室"
-      icon: "fas fa-fw fa-weixin"
+      icon: "fas fa-fw fa-link"
       url: "https://123.616161.best/img/istlab-wxQRcode.png"
     - label: "Bilibili"
       icon: "fas fa-fw fa-video"
@@ -137,7 +137,7 @@ analytics:
     anonymize_ip: true # default
 
 comments:
-  provider: "custom"
+  provider: ""  # 临时关闭评论，开启请改为 custom
 
 # Jekyll Minifier 配置 - 压缩静态资源提升网站性能
 jekyll-minifier:
